@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e1dbd3;
+}
+header{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8f5a1d;
+    color: #fff;
+}
+header p{
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+section.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4.5em;
+    
+}
+.element-hotel{
+    line-height: 12px;
+    text-align: center;
+    padding: 0.5em;
+}
+image{
+    border: none;
+    border-radius: 1em;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #28a742;
+    color: #fff;
+}
+button:hover{
+    background-color: olivedrab;
+}
