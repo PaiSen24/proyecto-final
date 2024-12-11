@@ -8,100 +8,109 @@
 </head>
 <body>
     <header>
-        <h1>Cielo Azul Monteria</h1>
+        <img src="assets/logo.jpg" alt="logo" id="logo">
         <p id="parrafo">
             El lugar donde encontraras los hoteles en Montería
         </p>
         <nav>
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Acerca de</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#sectionDescuento">En Descuentos</a></li>
+                <li><a href="#sectionRelevante">Más Relevantes</a></li>
+                <li><a href="#sectionMejores">Mejores Calificados</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="mainSection">
-            <h2>Mas Relevantes</h2>
+        <section class="mainSection" id="sectionDescuento">
+            <h2>En Descuento</h2>
             <div class="container">
                 <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
+                    <img src="assets/hotel1.jpg" alt="hotel-1">
                     <h3>Hotel 1</h3>
                     <p>
                         Descripcion del hotel, servicios que ofrece y por donde contactarlos. 
                     </p>
                     <p>
-                        Precio: $250.000
+                        Antes: $469.999
+                    </p>
+                    <p class="descuento">
+                        Ahora: $352.499 25% Desc
                     </p>
                     <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
                 </div>
                 <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
+                    <img src="assets/hotel2.jpg" alt="hotel-2">
                     <h3>Hotel 2</h3>
                     <p>
                         Descripcion del hotel, servicios que ofrece y por donde contactarlos. 
                     </p>
                     <p>
-                        Precio: $250.000
+                        Antes: $539.999
+                    </p>
+                    <p class="descuento">
+                        Ahora: $415.799 23% Desc
                     </p>
                     <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
                 </div>
                 <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
+                    <img src="assets/hotel3.jpg" alt="hotel-3">
                     <h3>Hotel 3</h3>
                     <p>
                         Descripcion del hotel, servicios que ofrece y por donde contactarlos. 
                     </p>
                     <p>
-                        Precio: $250.000
+                        Antes: $665.000
+                    </p>
+                    <p class="descuento">
+                        Ahora: $399.000 40% Desc
                     </p>
                     <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
                 </div>
             </div>
         </section>
-        <section class="secondSection">
+        <section class="secondSection" id="sectionRelevante">
+            <h2>Mas Relevantes</h2>
+            <div class="container">
+                <div class="element-hotel">
+                    <img src="assets/hotel4.jpg" alt="hotel-4">
+                    <h3>Hotel</h3>
+                    <p>
+                        Descripcion del hotel, servicios que ofrece y por donde contactarlos.
+                    </p>
+                    <p>
+                        Precio: $500.000
+                    </p>
+                    <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
+                </div>
+                <div class="element-hotel">
+                    <img src="assets/hotel5.jpg" alt="hotel-5">
+                    <h3>Hotel</h3>
+                    <p>
+                        Descripcion del hotel, servicios que ofrece y por donde contactarlos.
+                    </p>
+                    <p>
+                        Precio: $500.000
+                    </p>
+                    <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
+                </div>
+                <div class="element-hotel">
+                    <img src="assets/hotel6.jpg" alt="hotel-6">
+                    <h3>Hotel</h3>
+                    <p>
+                        Descripcion del hotel, servicios que ofrece y por donde contactarlos.
+                    </p>
+                    <p>
+                        Precio: $500.000
+                    </p>
+                    <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
+                </div>
+            </div>
+        </section>
+        <section class="thirdSection" id="sectionMejores">
             <h2>Mejores Calificados</h2>
             <div class="container">
                 <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
-                    <h3>Hotel</h3>
-                    <p>
-                        Descripcion del hotel, servicios que ofrece y por donde contactarlos.
-                    </p>
-                    <p>
-                        Precio: $500.000
-                    </p>
-                    <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
-                </div>
-                <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
-                    <h3>Hotel</h3>
-                    <p>
-                        Descripcion del hotel, servicios que ofrece y por donde contactarlos.
-                    </p>
-                    <p>
-                        Precio: $500.000
-                    </p>
-                    <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
-                </div>
-                <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
-                    <h3>Hotel</h3>
-                    <p>
-                        Descripcion del hotel, servicios que ofrece y por donde contactarlos.
-                    </p>
-                    <p>
-                        Precio: $500.000
-                    </p>
-                    <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
-                </div>
-            </div>
-        </section>
-        <section class="thirdSection">
-            <h2>Mas Accesibles</h2>
-            <div class="container">
-                <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
+                    <img src="assets/hotel7.jpg" alt="hotel-7">
                     <h3>Hotel</h3>
                     <p>
                         Descripcion del hotel, servicios que ofrece y por donde contactarlos.
@@ -112,7 +121,7 @@
                     <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
                 </div>
                 <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
+                    <img src="assets/hotel8.jpg" alt="hotel-8">
                     <h3>Hotel</h3>
                     <p>
                         Descripcion del hotel, servicios que ofrece y por donde contactarlos.
@@ -123,7 +132,7 @@
                     <button onclick="alert('habitaciones disponibles')">Ver habitaciones</button>
                 </div>
                 <div class="element-hotel">
-                    <img src="assets/hotel.jpg" alt="hotel">
+                    <img src="assets/hotel9.jpg" alt="hotel-9">
                     <h3>Hotel</h3>
                     <p>
                         Descripcion del hotel, servicios que ofrece y por donde contactarlos.

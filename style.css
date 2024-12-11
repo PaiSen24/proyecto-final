@@ -10,11 +10,14 @@ header{
     flex-direction: column; /*coloca los items en columna*/
     justify-content: center; 
     align-items: center;
-    background-color: #8f5a1d;
+    /* background-color: #8f5a1d; */
+    background-color: #0a0c3f  ;
     color: #fff;
 }
-header h1{
-    font-size: 4em;
+header img#logo{
+    justify-content: center;
+    width: 350px;
+    height: 300px;
 }
 header p{
     font-size: 18px;
@@ -32,15 +35,15 @@ ul a{
 
 section.mainSection{
     padding: 20px 0;
-    background-color: #5386d5 ; 
+    background-color: #eff1f4; 
 }
 section.secondSection{
     padding: 20px 0;
-    background-color: #DAF7A6;
+    background-color: #eeee97;
 }
 section.thirdSection{
     padding: 20px 0;
-    background-color: #FFC300 ;
+    background-color: #89a3bc ;
 }
 h2{
    padding: 50px 100px;
@@ -50,7 +53,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     margin:0 40px;
-    background-color: #fff;
+    background-color: #c7d4d6;
     border-radius: 1em;
 }
 .element-hotel{
@@ -61,6 +64,13 @@ h2{
 }
 .element-hotel p{
     font-size: 15px;
+}
+p.descuento{
+    margin: 15px 125px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
 }
 img{
     border: none;
@@ -76,11 +86,13 @@ button{
     color: #fff;
 }
 button:hover{
-    background-color: black;
+    background-color: #157edb   ;
     /*hola*/
     
 }
 footer{
-    margin-top: 50px;
+    margin: 20px auto;
     text-align: center;
 }
+
+/*Responsive Design*/
