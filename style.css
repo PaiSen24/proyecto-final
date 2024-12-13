@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; /*El documento utilice toda la pagina*/
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #eff1f4;
 }
 header{
     padding: 1em; /*seprara los elementos internamente*/
@@ -10,12 +10,10 @@ header{
     flex-direction: column; /*coloca los items en columna*/
     justify-content: center; 
     align-items: center;
-    /* background-color: #8f5a1d; */
     background-color: #0a0c3f  ;
-    color: #fff;
+    color: #fff; 
 }
 header img#logo{
-    justify-content: center;
     width: 350px;
     height: 300px;
 }
@@ -24,7 +22,7 @@ header p{
 }
 nav ul{
     display: flex;
-    gap: 1em;
+    gap: 1em; /*defiinimos el espacio entre elementos*/
     list-style: none; /*quita el formaro linea*/
 }
 ul a{
@@ -32,19 +30,12 @@ ul a{
     font-size: 20px;
     color: #fff;
 }
-
-section.mainSection{
+section.mainSection, section.secondSection, 
+section.thirdSection{
     padding: 20px 0;
     background-color: #eff1f4; 
 }
-section.secondSection{
-    padding: 20px 0;
-    background-color: #eeee97;
-}
-section.thirdSection{
-    padding: 20px 0;
-    background-color: #89a3bc ;
-}
+
 h2{
    padding: 50px 100px;
    font-size: 30px;
@@ -87,12 +78,82 @@ button{
 }
 button:hover{
     background-color: #157edb   ;
-    /*hola*/
-    
 }
 footer{
     margin: 20px auto;
     text-align: center;
 }
 
+/*Estilos para el model*/
+.modal { 
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+} 
+.modal-content { 
+    background-color: #fefefe; 
+    text-align: center;
+    margin: 50px 130px; 
+    padding: 20px; 
+    border: 1px solid #888; 
+    border-radius: 15px;
+    width: 80%; 
+} 
+.modal-content p{
+    margin: 15px 28em;
+}
+.close { 
+    color: #aaa; 
+    float: right; 
+    font-size: 28px; 
+    font-weight: bold; 
+} 
+.close:hover, .close:focus { 
+    color: black; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+
 /*Responsive Design*/
+
+/*Estilos para moviles*/
+@media only screen and (max-width:480px){
+    .element-hotel img{
+        width: 100%;
+    }
+    p.descuento{
+        width: 40%;
+        margin: 15px 75px;
+        padding: 15px 20px; 
+    }
+}
+
+/*Estilos para tabletas*/
+@media only screen and (max-width:768px){
+    .element-hotel{
+        width: 100%;
+    }
+    p.descuento{
+        margin: 15px 220px;
+    }
+}
+
+/*Estilos para Desktop*/
+@media only screen and (max-width:1028px){
+    section{
+        flex-grow: 1;
+    }
+    .container{
+       margin: 0;
+       padding: 10px; 
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
