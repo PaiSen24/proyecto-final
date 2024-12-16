@@ -35,15 +35,14 @@ section.thirdSection{
     padding: 20px 0;
     background-color: #eff1f4; 
 }
-
 h2{
-   padding: 50px 100px;
    font-size: 30px;
+   text-align: center;
 }
 .container{
     display: flex;
     flex-wrap: wrap;
-    margin:0 40px;
+    margin:0 10px;
     background-color: #c7d4d6;
     border-radius: 1em;
 }
